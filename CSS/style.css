@@ -1,0 +1,111 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Titillium+Web:wght@200;600&display=swap');
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    outline:none; 
+    border: none;
+    text-decoration: none;
+    text-transform:capitalize;
+    transition: all .2s linear;
+    line-height:1.5;
+
+}
+
+html {
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    padding-left: 30rem;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; bottom:0;
+    background:#222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 32rem;
+    text-align: center;
+}
+
+header .logo{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo span{
+
+    text-transform: uppercase;
+    color:skyblue;
+}
+
+.nav-bar a{
+    display:block;
+    font-size: 2rem;
+    color: #fff;
+    margin:1.8rem 0;
+
+}
+
+.nav-bar a:hover{
+    letter-spacing: .2rem;
+    color:skyblue;
+
+}
+
+.social{
+    font-size: 2.5rem;
+    color:#fff;
+
+}
+
+.social a:hover{
+    color: skyblue;
+}
+
+#menuSelect{
+    position: fixed;
+    top: 1rem; right: 1rem;
+    z-index: 10000;
+    background:skyblue;
+    color:#fff;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+/* // basic media queries// */
+
+@media (max-width:991px){
+    
+html {
+    font-size: 52%;
+}
+
+body{
+    padding: 0;
+}
+
+#menuSelect{
+    display:inital;
+}
+}
