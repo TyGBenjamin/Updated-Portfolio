@@ -30,6 +30,14 @@ body {
     padding-left: 30rem;
 }
 
+
+section {
+    padding: 1rem 5%;
+    min-height: 100vh;
+    font-size: 2.5rem;
+    /* padding-right: -300px; */
+}
+
 header{
     position: fixed;
     top:0; left: 0; bottom:0;
@@ -68,6 +76,7 @@ header .logo span{
 .nav-bar a:hover{
     letter-spacing: .2rem;
     color:skyblue;
+    font-size: 3rem;
 
 }
 
@@ -79,6 +88,7 @@ header .logo span{
 
 .social a:hover{
     color: skyblue;
+    font-size: 6rem;
 }
 
 #menuSelect{
@@ -126,7 +136,82 @@ header .logo span{
 
 .cursorTwo.active{
 display:none
+}
 
+.home{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+
+}
+
+.home .profilePic{
+    flex: 1 1 40rem;
+}
+
+.home.image img{
+    max-width:100%;
+
+    /* padding-left: 200%; */
+}
+
+#profilePic{
+    border-radius: 10px;
+}
+
+.content{
+    flex: 1 1 40rem;
+    max-width: 50%;
+}
+
+.home.content .hi{
+    font-size: 2rem;
+    color:skyblue;
+    text-transform: uppercase;
+}
+
+.home .content h3{
+    font-size: 4.5 rem;
+    color:#111;
+    padding: .5rem 0;
+}
+
+.home .content h3 span{
+    font-size: 3 rem;
+    color:skyblue;
+}
+
+.content .info{
+    font-size: 3.5 rem;
+    color:#111;
+    padding: .5rem 0;
+}
+
+.content .info {
+    font-size: 2.5 rem;
+    color:#111;
+    padding: .5rem 0;
+}
+
+.content .text{
+    font-size: 1.7 rem;
+    color:#666;
+    padding: .5rem 0;
+}
+
+.btn{
+    display:inline-block;
+    background-color: skyblue;
+    color: #fff;
+    margin-top: 1rem;
+    padding: .8rem 2rem;
+    cursor: pointer;
+    font-size: 70%;
+}
+
+.btn:hover{
+    background-color: black;
 }
 
 /* // basic media queries// */
@@ -140,6 +225,7 @@ html {
 body{
     padding: 0;
 }
+
 
 #menuSelect{
     display:initial;
