@@ -3,6 +3,8 @@ let header = document.querySelector('header');
 let cursorOne= document.querySelector('.cursorOne')
 let cursorTwo= document.querySelector('.cursorTwo')
 let links = document.querySelectorAll('a')
+let clickPhone= document.getElementById('clickPhone')
+let clickEmail= document.getElementById('clickEmail')
 
 // when the menu button in upper right corner is pressed
 // the header will toggle from displayed to hidden when the page
@@ -41,3 +43,13 @@ changeCursor = () =>{
 }
 
 changeCursor();
+
+clickPhone.onclick = (event) =>{
+    event.preventDefault();
+    console.log("tsting")
+}
+
+clickEmail.onclick = (event) =>{
+    event.preventDefault();
+    console.log("tsting")
+}
