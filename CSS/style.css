@@ -161,9 +161,7 @@ align-items: right;
 
 }
 
-#home .home{
 
-}
 
 #profilePic{
     border-radius: 25px;
@@ -343,6 +341,11 @@ align-items: right;
     font-size:1.8rem;
 }
 
+.rowTwo .skills{
+    padding-left:385px;
+    padding-bottom: -200px;
+}
+
 .rowTwo span {
     color: skyblue;
 }
@@ -396,15 +399,7 @@ align-items: right;
     width:10%;
 }
 
-/* .progress:nth-child(1) .bar:hover{
-    color:black;
-    font-size: 3rem;
-}
 
-.progress:nth-child(2) .bar:hover{
-    color:black;
-    font-size: 3rem;
-} */
 
 .skillset:hover{
     color:black;
@@ -415,10 +410,37 @@ align-items: right;
     color:black;
 }
 
-/* .progress:nth-child(4) .bar:hover{
+.serviceHeader{
+    padding: 8px 8px;
+    background-color: skyblue;
+    color:white;
+    border-radius: 5px;
+    /* text-decoration-line: underline;
+    text-decoration-color: skyblue; */
+}
+
+.serviceHeader:hover{
+    font-size: 2.8rem;
     color:black;
-    font-size: 3rem;
-} */
+    /* text-decoration-line: underline;
+    text-decoration-color: skyblue; */
+}
+
+.service .boxContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service .boxContainer .box{
+flex:1 1 30rem;
+text-align:center;
+padding:2rem;
+background:#fff;
+border-radius: .5rem;
+box-shadow:0 .5rem 1rem rgba(0,0,0,.1)
+} 
+
 
 
 /* // basic media queries// */
