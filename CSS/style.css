@@ -146,20 +146,31 @@ display:none
 
 }
 
-.home .profilePic{
+.home .photo{
     flex: 1 1 40rem;
 }
 
 .home.image img{
-    max-width:100%;
+    width:100%;
 
     /* padding-left: 200%; */
+}
+
+#home.home img{
+align-items: right;
+
+}
+
+#home .home{
+
 }
 
 #profilePic{
     border-radius: 25px;
     max-height:100%;
-    padding-right: 20px;
+    padding-right: 10px;
+    width:95%;
+
 }
 
 .content{
