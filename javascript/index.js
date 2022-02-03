@@ -6,6 +6,7 @@ let links = document.querySelectorAll('a')
 let clickPhone= document.getElementById('clickPhone')
 let clickEmail= document.getElementById('clickEmail')
 let clickLocation= document.getElementById('clickLocation')
+let downloadCv = document.getElementById('downloadCv');
 
 // when the menu button in upper right corner is pressed
 // the header will toggle from displayed to hidden when the page
@@ -59,3 +60,9 @@ clickLocation.onclick = (event) =>{
     event.preventDefault();
     console.log("tsting")
 }
+
+downloadCv.addEventListener('click', function(){
+    console.log('test')
+    let resume="https://drive.google.com/file/d/1eBY_DxVdPXhypR77QPcFR_b42qN5TQ6M/view?usp=sharing"
+window.open(resume, '_blank');
+})
