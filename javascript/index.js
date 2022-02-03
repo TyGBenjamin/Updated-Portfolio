@@ -5,6 +5,7 @@ let cursorTwo= document.querySelector('.cursorTwo')
 let links = document.querySelectorAll('a')
 let clickPhone= document.getElementById('clickPhone')
 let clickEmail= document.getElementById('clickEmail')
+let clickLocation= document.getElementById('clickLocation')
 
 // when the menu button in upper right corner is pressed
 // the header will toggle from displayed to hidden when the page
@@ -50,6 +51,11 @@ clickPhone.onclick = (event) =>{
 }
 
 clickEmail.onclick = (event) =>{
+    event.preventDefault();
+    console.log("tsting")
+}
+
+clickLocation.onclick = (event) =>{
     event.preventDefault();
     console.log("tsting")
 }
