@@ -15,7 +15,7 @@ Links to my Github, LinkedIn, and resume are included on the page and can be vie
 
 ## About
 
-My name is Tyler B. Gandy. I'm currently completing the Upeen LPS Bootcamp while also attending school to complete an Associate Degree program for Computer Science. I thoroughly enjoy working in javascript code and feel comfortable wokring on either front-end or back-end development teams. Please visit my portfolio webpage to inquire more.  
+My name is Tyler B. Gandy. I'm currently completing the UPenn LPS Bootcamp while also attending school to complete an Associate Degree program for Computer Science. I thoroughly enjoy working in JavaScript code and feel comfortable working on either front-end or back-end Development teams. Please visit my portfolio webpage to inquire more.  
 Thank You for your time and consideration. Best Regards.
 
 ## Preview
